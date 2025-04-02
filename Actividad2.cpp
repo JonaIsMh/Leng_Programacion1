@@ -6,16 +6,16 @@ int main()
 
 {
     printf("\nActividad 2. Suma, Resta, Multiplicación y División - Jonathan Moreno\n");
-    double num1, num2;
+    float num1, num2;
     //Aqui le especifico que ingrese dos numeros 
     std::cout << "Ingrese su primer valor: ";
     std::cin >> num1;
     std::cout << "Ingrese su segundo valor: ";
     std::cin >> num2;
-    double sumar = num1 + num2;
-    double restar = num1 - num2;
-    double multiplicacion = num1 * num2;
-    double division = (num2 != 0) ? (num1 / num2) : 0;
+    float sumar = num1 + num2;
+    float restar = num1 - num2;
+    float multiplicacion = num1 * num2;
+    float division = (num2 != 0) ? (num1 / num2) : 0;
     
     std::cout << "\nResultados: \n";
     std::cout << "Suma: " << sumar << std::endl;
